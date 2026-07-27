@@ -1,0 +1,19 @@
+# Local preview output
+.preview-chrome-*/
+*.log
+*-preview.png
+
+# Recovery and deployment working directories
+.asorn-pages/
+.cloudflare-deploy/
+.wrangler/
+.source-asorn*
+
+# Dependencies and OS files
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Local scratch media
+/demo.mp4
+.codex-*
