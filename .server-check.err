@@ -1,0 +1,16 @@
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open 'C:\Users\Tencent\Documents\%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99\WinkX-Design\index.html'
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Tencent\\Documents\\%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99\\WinkX-Design\\index.html'
+}
+
+Node.js v20.15.0
